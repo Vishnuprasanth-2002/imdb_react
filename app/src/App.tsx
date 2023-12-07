@@ -1,11 +1,10 @@
 import { lazy, Suspense, useState } from "react";
-import { Routes, Route, BrowserRouter } from "react-router-dom"
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
 
 import Home from "./pages/Home";
 const SignupForm = lazy(() => import("./pages/SignupForm"));
 const UpdateForm = lazy(() => import("./pages/UpdateForm"));
-import "@picocss/pico";
 import Loading from "./components/loding";
 function App() {
   return (
