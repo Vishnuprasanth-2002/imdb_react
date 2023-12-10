@@ -1,7 +1,7 @@
 import { lazy, Suspense, useState } from "react";
 import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
-
+import "@picocss/pico";
 import Home from "./pages/Home";
 const SignupForm = lazy(() => import("./pages/SignupForm"));
 const UpdateForm = lazy(() => import("./pages/UpdateForm"));
