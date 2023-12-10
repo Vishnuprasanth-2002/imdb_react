@@ -36,16 +36,18 @@ const LoginForm = () => {
         type="email"
         id="email"
         name="email"
+        value={login.email}
         placeholder="Email address"
         onChange={handleChange}
         required
       />
-      <label htmlFor="password">
+      <label htmlFor="user_password">
         Password
         <input
           type="text"
           id="user_password"
           name="user_password"
+          value={login.user_password}
           placeholder="Password"
           onChange={handleChange}
           required

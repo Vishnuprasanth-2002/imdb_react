@@ -5,6 +5,7 @@ function UpdateForm() {
     <>
       <Layout title="update">
         <h1>UpdateForm</h1>
+        
       </Layout>
     </>
   );
